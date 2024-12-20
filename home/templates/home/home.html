@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chọn Chế Độ</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>RCDLAN/Group-05</h1>
+        <p class="subtitle">Bạn đóng vai trò gì?</p>
+        <p class="select-text">Chọn chế độ:</p>
+        <div class="button-group">
+            <a href="/server/" class="button">Chế độ Server</a>
+            <a href="/client/" class="button">Chế độ Client</a>
+        </div>
+    </div>
+</body>
+</html>
